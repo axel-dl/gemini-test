@@ -42,31 +42,31 @@ The evaluation included the following:
 
 ### Testing Roadmap
 
-1. **Unit Tests:**
-  
-  - Individual function/method testing for core Gemini integration components.
-  - Mock Gemini API responses to simulate different scenarios (success, failure, rate limits).
-  - Focus on validating data transformations, request construction, and response parsing.
-2. **Integration Tests:**
-  
-  - End-to-end testing of Gemini integration with other chatbot components.
-  - Verify correct message flow and data exchange between Gemini and other services.
-  - Simulate concurrent user interactions to assess stability and performance under load.
-3. **Safety and Moderation Tests:**
-  
-  - Evaluate Gemini's ability to handle potentially harmful or inappropriate user inputs.
-  - Test the effectiveness of safety filters and moderation mechanisms.
-  - Identify and address any potential vulnerabilities or biases in Gemini's responses.
-4. **Performance Tests:**
-  
-  - Measure Gemini's latency, throughput, and resource consumption under various load conditions.
-  - Identify performance bottlenecks and optimize Gemini integration for optimal performance.
-  - Compare Gemini's performance against other LLMs (GPT-4o mini, Claude 3.5 Sonnet) to determine the best fit for the chatbot-sale-2025 project.
-5. **Functional Tests:**
-  
-  - Verify that Gemini can accurately understand user intents and provide appropriate responses in different conversation scenarios.
-  - Test the reliability of JSON schema/function-calling support and tool calls.
-  - Ensure that Gemini can handle complex conversations and provide accurate and helpful information to users.
+#### ✅ Unit Tests
+- Test individual functions and methods for Gemini integration components.
+- Mock Gemini API responses for success, failure, and rate limits.
+- Validate data transformations, request construction, and response parsing.
+
+#### ✅ Integration Tests
+- Test end-to-end Gemini integration with other chatbot components.
+- Verify correct message flow and data exchange between Gemini and other services.
+- Simulate concurrent user interactions to assess stability and performance.
+
+#### ✅ Safety & Moderation Tests
+- Evaluate how Gemini handles potentially harmful or inappropriate user inputs.
+- Test the effectiveness of safety filters and moderation mechanisms.
+- Identify and address vulnerabilities or biases in responses.
+
+#### ✅ Performance Tests
+- Measure Gemini's latency, throughput, and resource usage under various loads.
+- Identify performance bottlenecks and optimize integration.
+- Compare Gemini's performance against GPT-4o mini and Claude 3.5 Sonnet.
+
+#### ✅ Functional Tests
+- Ensure Gemini understands user intents and gives proper responses in varied scenarios.
+- Test reliability of JSON schema/function-calling support and tool calls.
+- Confirm Gemini can handle complex conversations and provide accurate information.
+
 
 ### Recommendations
 
